@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'gt-super  Georgia Cambria Times New Roman Times serif';
+}
+
+.ha {
+  height: max-content !important;
+  background-color: #fffefed7;
+}
+
+input::placeholder {
+  color: #8E8E8E;
+}
+
+input.focused::placeholder {
+  color: #111;
+}
+
+.Mainnav,
+.search {
+  display: none !important;
+}
+
+.fs {
+  font-size: 12px !important;
+}
+
+.write .ql-editor {
+  font-size: 1.2rem !important;
+  padding: 0 !important;
+}
+
+.leftnone {
+  right: 18% !important;
+
+}
+
+@media (max-width:1440px) {
+  .leftnone {
+    right: 18% !important;
+  }
+}
+
+@media (max-width: 1250px) {
+  .cont {
+    padding-left: 0 !important;
+  }
+
+  .rightcon {
+    padding-right: 30px !important;
+  }
+
+  .leftnone {
+    right: 10% !important;
+  }
+}
+
+@media (max-width:1080px) {
+  .leftnone {
+    right: 8% !important;
+  }
+}
+
+@media (max-width: 1022px) {
+  .headimg {
+    display: none !important;
+  }
+
+  .ha {
+    margin-top: 115px !important;
+    margin-left: 8% !important;
+    width: 100% !important;
+  }
+
+  .ha h2 {
+    font-size: 104px !important;
+  }
+
+  .ha button {
+    background-color: #1A8917 !important;
+  }
+  .leftnone {
+    right: 5% !important;
+  }
+}
+
+@media (max-width:900px) {
+  .ProPare {
+    width: 100% !important;
+  }npm run build
+
+
+  .ProRight,
+  .leftnone {
+    display: none !important;
+  }
+
+  .ProLeft {
+    width: 90% !important;
+  }
+}
+
+
+@media (max-width: 728px) {
+  .navs {
+    width: 88% !important;
+  }
+
+  .nav {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.981);
+  }
+
+  .ha {
+    margin-top: 115px !important;
+    margin-left: 4% !important;
+  }
+
+  .ha h2 {
+    font-size: 80px !important;
+    letter-spacing: -3px !important;
+    line-height: 70px !important;
+  }
+
+  .ha p {
+    margin-top: 30px !important;
+    font-weight: 500 !important;
+  }
+
+  .pencil {
+    display: none !important;
+  }
+
+  .Mainnav,
+  .search {
+    display: block !important;
+  }
+
+  .Sidebar {
+    margin-top: 40px !important;
+    right: 10px !important;
+  }
+
+}
+
+@media (max-width: 640px) {
+  .dtop {
+    margin-top: 100px;
+  }
+
+  .Pinput {
+    display: none !important;
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .nav1,
+  .Pinput {
+    display: none !important;
+  }
+
+  .right {
+    gap: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .rightcon {
+    padding-right: 0px !important;
+  }
+
+}
+
+@media (max-width: 448px) {
+  .ha {
+    margin-top: 90px !important;
+    margin-left: 8% !important;
+  }
+
+  .ha h2 {
+    font-size: 90px !important;
+    font-weight: 500 !important;
+    letter-spacing: -10% !important;
+  }
+
+  .dtop {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 384px) {
+  .med {
+    margin-top: 20px !important;
+  }
+
+}
